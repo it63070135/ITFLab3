@@ -1,5 +1,5 @@
 <?php
-	$conn = mysqli_connect('itflab63070135.mysql.database.azure.com', 'it63070135@itflab63070135', 'HIFmqm86', 'itflab', 3306);
+	$conn = mysqli_connect('itflab63070135.mysql.database.azure.com', 'it63070135@itflab63070135', 'HIFmqm86', 'itflab');
 	$sql = 'DELETE FROM guestbook WHERE ID = '.$_GET['ID'].'';
 ?>
 <!DOCTYPE html>
