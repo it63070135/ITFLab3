@@ -22,7 +22,7 @@
 					<div class="card-body">
 						<h2 align="center">
 						<?php
-							if(mysqli_query($conn, $sql)) {
+							if(mysqli_query($conn)) {
 								echo "DELETE COMPLETED";
 							}
 							else {
