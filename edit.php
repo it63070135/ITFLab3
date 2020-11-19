@@ -3,7 +3,7 @@
 
 	$id = $_GET['ID'];
 
-	$sql = 'SELECT * FROM guestbook WHERE ID = '.$id.'';
+	$sql = 'SELECT * FROM guestbook WHERE ID = '.$ID.'';
 	$query = mysqli_query($conn, $sql);
 	if(!$query) {
 		header('Location: index.php');
@@ -33,8 +33,8 @@
 						<div class="row">
 							<div class="col-6"><h1 class="text-monospace">Edit</h1></div>
 						</div>
-						<form action="update.php" method="post">
-							<input type="text" name="id" value="<?php echo $data['ID']; ?>" class="form-control d-none" required>
+						<form action="Update.php" method="post">
+							<input type="text" name="ID" value="<?php echo $data['ID']; ?>" class="form-control d-none" required>
 							<div class="form-group">
 								<label>Name</label>
 								<input type="text" name="name" value="<?php echo $data['Name']; ?>" class="form-control" required>
