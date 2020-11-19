@@ -1,5 +1,5 @@
 <?php
-	$conn = mysqli_connect('suphafang.mysql.database.azure.com', 'suphafang@suphafang', 'Fang2545', 'ITFLab');
+	$conn = mysqli_connect('itflab63070135.mysql.database.azure.com', 'it63070135@itflab63070135', 'HIFmqm86', 'itflab', 3306);
 	$sql = 'DELETE FROM guestbook WHERE ID = '.$_GET['ID'].'';
 ?>
 <!DOCTYPE html>
@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
 	<style type="text/css">
 		.card {
-			border-top: solid 5px #ffc107;
+			border-top: solid 5px #22EEED;
 		}
 	</style>
 </head>
