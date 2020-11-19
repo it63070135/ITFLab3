@@ -1,7 +1,7 @@
 <?php
 	$conn = mysqli_connect('itflab63070135.mysql.database.azure.com', 'it63070135@itflab63070135', 'HIFmqm86', 'itflab', 3306);
 
-	$id = $_GET['ID'];
+	$ID = $_GET['ID'];
 
 	$sql = 'SELECT * FROM guestbook WHERE ID = '.$ID.'';
 	$query = mysqli_query($conn, $sql);
