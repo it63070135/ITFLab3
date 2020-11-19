@@ -4,9 +4,9 @@
 	$name = $_POST['name'];
 	$comment = $_POST['comment'];
 	$link = $_POST['link'];
-	$id = $_POST['id'];
+	$ID = $_POST['ID'];
 
-	$sql = 'UPDATE guestbook SET Name = "'.$name.'", Comment = "'.$comment.'", Link = "'.$link.'" WHERE ID = '.$id.'';
+	$sql = 'UPDATE guestbook SET Name = "'.$name.'", Comment = "'.$comment.'", Link = "'.$link.'" WHERE ID = '.$ID.'';
 ?>
 <!DOCTYPE html>
 <html>
