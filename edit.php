@@ -37,15 +37,15 @@
 							<input type="text" name="ID" value="<?php echo $data['ID']; ?>" class="form-control d-none" required>
 							<div class="form-group">
 								<label>Name</label>
-								<input type="text" name="name" value="<?php echo $data['Name']; ?>" class="form-control" required>
+								<input type="text" name="name" value="<?php echo $data['name']; ?>" class="form-control" required>
 							</div>
 							<div class="form-group">
 								<label>Comment</label>
-								<textarea name="comment" class="form-control" rows="5" required><?php echo $data['Comment']; ?></textarea>
+								<textarea name="comment" class="form-control" rows="5" required><?php echo $data['comment']; ?></textarea>
 							</div>
 							<div class="form-group">
 								<label>Link</label>
-								<input type="text" name="link" value="<?php echo $data['Link']; ?>" class="form-control">
+								<input type="text" name="link" value="<?php echo $data['link']; ?>" class="form-control">
 							</div>
 							<div class="text-center">
 								<button type="submit" class="btn btn-sm btn-warning my-3 font-weight-bold">SAVE</button>
