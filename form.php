@@ -17,18 +17,18 @@
 				<div class="card shadow">
 					<div class="card-body">
 						<div class="row">
-							<div class="col-6"><h1 class="text-monospace">Form</h1></div>
+							<div class="col-6 text-dark"><h1 class="text-monospace">Form</h1></div>
 						</div>
 						<form action="insert.php" method="post">
-							<div class="form-group">
+							<div class="form-group text-dark">
 								<label>Name</label>
 								<input type="text" name="name" class="form-control" required>
 							</div>
-							<div class="form-group">
+							<div class="form-group text-dark">
 								<label>Comment</label>
 								<textarea name="comment" class="form-control" rows="5" required></textarea>
 							</div>
-							<div class="form-group">
+							<div class="form-group text-dark">
 								<label>Link</label>
 								<input type="text" name="link" class="form-control">
 							</div>
