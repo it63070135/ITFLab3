@@ -24,26 +24,26 @@
 		}
 	</style>
 </head>
-<body class="bg-light py-5">
-	<div class="container text-dark">
+<body class="bg-dark py-5">
+	<div class="container text-light">
 		<div class="row">
 			<div class="col-12 col-lg-8 offset-lg-2">
 				<div class="card shadow">
 					<div class="card-body">
 						<div class="row">
-							<div class="col-6"><h1 class="text-monospace">Edit</h1></div>
+							<div class="col-6"><h1 class="text-monospace text-dark">Edit</h1></div>
 						</div>
 						<form action="Update.php" method="post">
 							<input type="text" name="ID" value="<?php echo $data['ID']; ?>" class="form-control d-none" required>
-							<div class="form-group">
+							<div class="form-group text-dark">
 								<label>Name</label>
 								<input type="text" name="name" value="<?php echo $data['name']; ?>" class="form-control" required>
 							</div>
-							<div class="form-group">
+							<div class="form-group text-dark">
 								<label>Comment</label>
 								<textarea name="comment" class="form-control" rows="5" required><?php echo $data['comment']; ?></textarea>
 							</div>
-							<div class="form-group">
+							<div class="form-group text-dark">
 								<label>Link</label>
 								<input type="text" name="link" value="<?php echo $data['link']; ?>" class="form-control">
 							</div>
