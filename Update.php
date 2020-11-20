@@ -20,12 +20,12 @@
 		}
 	</style>
 </head>
-<body class="bg-light py-5">
-	<div class="container text-dark">
+<body class="bg-dark py-5">
+	<div class="container text-light">
 		<div class="row">
 			<div class="col-12 col-lg-8 offset-lg-2">
 				<div class="card shadow">
-					<div class="card-body">
+					<div class="card-body text-dark">
 						<h2 align="center">
 						<?php
 							if(mysqli_query($conn, $sql)) {
